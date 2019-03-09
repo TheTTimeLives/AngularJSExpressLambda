@@ -1,7 +1,10 @@
 //app.js
+
+//Notice how each component matches with a template and a controller. You can think of the controller as a substitute for the logic held in Typescript classes in Angular 2 conventions
 angular.module('angular-app', [])
 .component('app', {
   templateUrl: '../templates/app.html',
+  //$variables substitute for Angular 2 dependencies like http, injectable, rxjs etc.
   controller: function($http) {
     //ensures that the this scope isn't lost
     let $ctrl = this;

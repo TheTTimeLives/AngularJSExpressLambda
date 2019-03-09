@@ -7,9 +7,11 @@
     <script src="./node_modules/angular/angular.js"></script>
   </head>
   <body>
+    <!-- When ng-app renders, any text within will get erased-->
     <app ng-app="angular-app">
       <h5><br/><br/>this message will disappear when <em>app</em> component is correctly rendered<br/><br/><br/></h5>
     </app>
+    <!-- We include our JS "components" as script tags, I guess you could call them dependencies-->
     <script src="./components/app.js"></script>
     <script src="./components/addTask.js"></script>
     <script src="./components/taskList.js"></script>

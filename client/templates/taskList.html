@@ -1,3 +1,5 @@
 <ul class="task-list">
-    <task-list-entry ng-repeat="task in $ctrl.tasks track by task._id" tasks="$ctrl.tasks" task="task"></task-list-entry>
+    <!-- Here are the templates listed for our other components. AngularJS isn't very complicated as you ca see -->
+    <task-list-entry ng-repeat="task in $ctrl.tasks track by task._id" tasks="$ctrl.tasks" task="task">
+    </task-list-entry>
 </ul>

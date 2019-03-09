@@ -5,7 +5,7 @@ const index = require('./routes/index');
 const tasks = require('./routes/tasks'); 
 
 const app = express();
-let port = process.env.PORT || 3000 // sets a relative port
+let port = process.env.PORT || 3005 // sets a relative port
 
 // server.js
 // Setup View Engine
